@@ -1,0 +1,74 @@
+systems:
+    -
+        id: '2a1152ee-4d77-4ff4-a811-598555937625'
+        name: hedgehog-garden
+
+clusters:
+    -
+        clusterId: '79e914da-5103-4651-abb1-70214d2270a7'
+        systemId: '2a1152ee-4d77-4ff4-a811-598555937625'
+        name: open-air
+    -
+        clusterId: 'd64d2325-c7b0-4bc7-9178-8ec76ac7355c'
+        systemId: '2a1152ee-4d77-4ff4-a811-598555937625'
+        name: politunnel
+
+sectors:
+    # Cluster 1
+    -
+        name: tomatoes
+        sectorId: '9688588a-2507-4460-855c-72743ff7fe5f'
+        clusterId: '79e914da-5103-4651-abb1-70214d2270a7'
+        idx: 0
+        port:
+            deviceId: '53181aca-1dad-4cc0-86b6-eaf59dd01989'
+            portIdx: 0
+    -
+        name: cucumbers
+        sectorId: 'aa0eb245-eb9e-4815-88f5-891bc89ca0d8'
+        clusterId: '79e914da-5103-4651-abb1-70214d2270a7'
+        idx: 1
+        port:
+            deviceId: '53181aca-1dad-4cc0-86b6-eaf59dd01989'
+            portIdx: 1
+    -
+        name: papricas
+        sectorId: '74d9ac33-c3f2-4ba7-8d7e-89ede93ed191'
+        clusterId: '79e914da-5103-4651-abb1-70214d2270a7'
+        idx: 2
+        port:
+            deviceId: '53181aca-1dad-4cc0-86b6-eaf59dd01989'
+            portIdx: 2
+    -
+        name: carrots
+        sectorId: '576ac398-f675-4851-b246-4bf6067471dd'
+        clusterId: '79e914da-5103-4651-abb1-70214d2270a7'
+        idx: 3
+        port:
+            deviceId: '53181aca-1dad-4cc0-86b6-eaf59dd01989'
+            portIdx: 3
+    
+    # Cluster 2
+    -
+        name: cucumbers
+        sectorId: 'f63df5ca-f6b1-4c02-8f6a-f2170b8ed0a9'
+        clusterId: 'd64d2325-c7b0-4bc7-9178-8ec76ac7355c'
+        idx: 0
+        port:
+            deviceId: 'b02e7625-aca4-4d7c-bdf7-73cd92ebf055'
+            portIdx: 0
+
+    -
+        name: potatoes
+        sectorId: '1d255036-419a-4955-8c44-889a0dbe368e'
+        clusterId: 'd64d2325-c7b0-4bc7-9178-8ec76ac7355c'
+        idx: 1
+        port:
+            deviceId: 'b02e7625-aca4-4d7c-bdf7-73cd92ebf055'
+            portIdx: 1
+                
+ports:
+    -
+        deviceId: '53181aca-1dad-4cc0-86b6-eaf59dd01989'
+    -
+        deviceId: 'b02e7625-aca4-4d7c-bdf7-73cd92ebf055'

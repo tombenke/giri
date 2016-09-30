@@ -1,15 +1,17 @@
-giri - Garden Irrigator System - main project
-=============================================
+giri
+====
 
 ## About the giri system
 
-- It is a case-study on how to develop simple, micro-services based, distributed systems, including:
+This is the main project of the Garden Irrigator (shortly giri) System.
+
+It is a case-study on how to develop simple, micro-services based, distributed systems, including:
     - specification writing,
     - designing,
     - implementation & testing,
     - deployment & operation.
 
-- To provide examples of how to use tools created for rapid development using archetypes of:
+This project provides examples of how to use tools created for rapid development using archetypes of:
     - UI framework,
     - UI frontend containers and components,
     - REST service endpoints,
@@ -17,12 +19,12 @@ giri - Garden Irrigator System - main project
     - microservice worker modules,
     - IoT/WoT functional units.
 
-- Demonstrates the usage of [Seneca.js](http://senecajs.org) JavaScript micro-service framework.
+It demonstrates the usage of [Seneca.js](http://senecajs.org) JavaScript micro-service framework.
 
 This is an umbrella project.
 
 It contains only the main specification and supporting materials, under the docs folder.
-Visit the [wiki pages](https://github.com/tombenke/giri) for furher information.
+Visit the [wiki pages](https://github.com/tombenke/giri/wiki) for furher information.
 
 Also see the following repositories:
 
@@ -34,9 +36,11 @@ Also see the following repositories:
 
 - tools for rapid development:
 
+    - https://github.com/tombenke/rest-tool
+    - https://github.com/tombenke/scmt
     - https://github.com/tombenke/kickoff
 
-- project and component archetypes:
+- [kickoff archetypes](https://github.com/tombenke/kickoff) for projects and components:
 
     - https://github.com/tombenke/hapis-archetype
     - https://github.com/tombenke/react-ui-archetype

@@ -30,8 +30,10 @@ Also see the following repositories:
 
 - giri components:
 
-    - https://github.com/tombenke/giri-web
     - https://github.com/tombenke/giri-all-in-one
+    - https://github.com/tombenke/giri-rest-api
+    - https://github.com/tombenke/giri-rest-api-mock
+    - https://github.com/tombenke/giri-web
     - https://github.com/tombenke/giri-system-control
 
 - tools for rapid development:
@@ -42,9 +44,9 @@ Also see the following repositories:
 
 - [kickoff archetypes](https://github.com/tombenke/kickoff) for projects and components:
 
+    - https://github.com/tombenke/seneca-plugin-archetype
+    - https://github.com/tombenke/seneca-app-archetype
     - https://github.com/tombenke/hapis-archetype
     - https://github.com/tombenke/react-ui-archetype
     - https://github.com/tombenke/react-ui-material-archetype
-    - https://github.com/tombenke/seneca-plugin-archetype
-    - https://github.com/tombenke/seneca-app-archetype
 

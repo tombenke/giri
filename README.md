@@ -24,7 +24,8 @@ It demonstrates the usage of [Seneca.js](http://senecajs.org) JavaScript micro-s
 This is an umbrella project.
 
 It contains only the main specification and supporting materials, under the docs folder.
-Visit the [wiki pages](https://github.com/tombenke/giri/wiki) for furher information.
+Visit the [wiki pages](https://github.com/tombenke/giri/wiki) for furher information,
+or read the [giri overview](https://cdn.rawgit.com/tombenke/giri/master/docs/giri.svg) presentation.
 
 Also see the following repositories:
 

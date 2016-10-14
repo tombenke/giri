@@ -1,0 +1,275 @@
+<map version="0.9.0">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1476460274319" ID="ID_1872816283" MODIFIED="1476460285280" TEXT="specificationTemplate">
+<node CREATED="1476421163589" ID="ID_1361202782" MODIFIED="1476421947650" POSITION="right" TEXT="v? (template)">
+<node COLOR="#669900" CREATED="1476434743891" FOLDED="true" ID="ID_202373240" MODIFIED="1476434751097" TEXT="Note:">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#669900" CREATED="1476434211830" ID="ID_851779355" MODIFIED="1476434738875" TEXT="(sub-version numbers help to group the functionalities, use-cases, etc. to implement into groups, based on the dependencies of each other">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#669900" CREATED="1476434255294" ID="ID_635078112" MODIFIED="1476434357268" TEXT="a feature might depends on other features, so the dependencies must be delivered latest until the previous sub-version the given dependent function is targeted with.">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1476421187541" FOLDED="true" ID="ID_1586337930" MODIFIED="1476434788833" TEXT="features:">
+<node COLOR="#669900" CREATED="1476434788800" ID="ID_953959735" MODIFIED="1476434791218" TEXT="Note:">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#669900" CREATED="1476434014350" ID="ID_319938791" MODIFIED="1476434360730" TEXT="Write here the very high-level business goals and features the system delivers">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#669900" CREATED="1476434104792" ID="ID_1753918188" MODIFIED="1476434759489" TEXT="This is the basis for definlining:">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#669900" CREATED="1476434116128" ID="ID_1537835280" MODIFIED="1476434763516" TEXT="impact mapping">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="forward"/>
+</node>
+<node COLOR="#669900" CREATED="1476434112853" ID="ID_1434456752" MODIFIED="1476434763516" TEXT="deliverables">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="forward"/>
+</node>
+<node COLOR="#669900" CREATED="1476434125425" ID="ID_1496331999" MODIFIED="1476434763515" TEXT="use-cases">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="forward"/>
+</node>
+</node>
+</node>
+<node CREATED="1476434779623" ID="ID_1657454384" MODIFIED="1476434782142" TEXT="feature_1"/>
+<node CREATED="1476434782439" ID="ID_112723950" MODIFIED="1476434786309" TEXT="feature_?"/>
+</node>
+<node CREATED="1476421936991" FOLDED="true" ID="ID_1529724799" MODIFIED="1476434794426" TEXT="deliverables:">
+<node COLOR="#669900" CREATED="1476434794398" ID="ID_14553513" MODIFIED="1476435741311" TEXT="Note:">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#669900" CREATED="1476434149110" ID="ID_150590108" MODIFIED="1476435741312" TEXT="list here the deliverables">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#669900" CREATED="1476434801284" ID="ID_1469657744" MODIFIED="1476435741311" TEXT="Put each deliverable as a separate item">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#669900" CREATED="1476435688226" ID="ID_686775596" MODIFIED="1476435741311" TEXT="Collect the NFRs also with the features, which might vary version-by-version">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#669900" CREATED="1476435712672" ID="ID_757161205" MODIFIED="1476435741311" TEXT="Define success criteria, incl. the NFRs defined for the items of deliverables">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#669900" CREATED="1476435876649" ID="ID_1475773298" MODIFIED="1476435896258" TEXT="Aspects for NFRs:">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#669900" CREATED="1476435910361" ID="ID_1969062473" MODIFIED="1476436063272" TEXT="security">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#669900" CREATED="1476435912591" ID="ID_1135475822" MODIFIED="1476436063272" TEXT="expected throughput, max. latency (avg./peak, distrib in time/location)">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#669900" CREATED="1476435917976" ID="ID_616097790" MODIFIED="1476436063272" TEXT="data store required (continuous/periodic)">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#669900" CREATED="1476435924292" ID="ID_1034344456" MODIFIED="1476436063273" TEXT="computation capacity required">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#669900" CREATED="1476435928524" ID="ID_647242285" MODIFIED="1476436063273" TEXT="archiving">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#669900" CREATED="1476435890492" ID="ID_294305593" MODIFIED="1476436075734" TEXT="others... TBD.">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1476434164838" ID="ID_1096762763" MODIFIED="1476434168464" TEXT="deliverable_1">
+<node CREATED="1476434178711" ID="ID_538372258" MODIFIED="1476434390190" TEXT="v1.1">
+<node CREATED="1476434199235" ID="ID_1915813640" MODIFIED="1476434403952" TEXT="functionality delivered with v1.1"/>
+<node CREATED="1476434407427" ID="ID_916114605" MODIFIED="1476434408713" TEXT="..."/>
+<node CREATED="1476435751140" ID="ID_1467886261" MODIFIED="1476435753061" TEXT="NFRs"/>
+</node>
+<node CREATED="1476434182906" ID="ID_1249041669" MODIFIED="1476434185760" TEXT="v?.?">
+<node CREATED="1476435751140" ID="ID_774669704" MODIFIED="1476435753061" TEXT="NFRs"/>
+</node>
+<node CREATED="1476435751140" ID="ID_1960759300" MODIFIED="1476435753061" TEXT="NFRs"/>
+</node>
+<node CREATED="1476434173909" ID="ID_953982128" MODIFIED="1476434175072" TEXT="..."/>
+<node CREATED="1476434168873" ID="ID_294534107" MODIFIED="1476435766047" TEXT="deliverable:n"/>
+</node>
+<node CREATED="1476432687235" ID="ID_1055660604" MODIFIED="1476460343545" TEXT="roadmap">
+<node CREATED="1476432678033" ID="ID_466341968" MODIFIED="1476432680976" TEXT="v1.1">
+<node CREATED="1476460348769" ID="ID_1767929724" MODIFIED="1476460368195" TEXT="1. deliverables and success criteria of v1.1"/>
+<node CREATED="1476460382384" ID="ID_268462262" MODIFIED="1476460383460" TEXT="..."/>
+</node>
+<node CREATED="1476460374497" ID="ID_923874675" MODIFIED="1476460375943" TEXT="..."/>
+<node CREATED="1476432681373" ID="ID_1525184362" MODIFIED="1476460378420" TEXT="v1.n"/>
+</node>
+<node CREATED="1476421208148" ID="ID_148531206" MODIFIED="1476421476779" TEXT="use-cases:">
+<node COLOR="#669900" CREATED="1476434850533" ID="ID_4219304" MODIFIED="1476434893789" TEXT="Note:">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#669900" CREATED="1476434853172" ID="ID_676168075" MODIFIED="1476434893790" TEXT="List here the use-cases">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#669900" CREATED="1476434864187" ID="ID_1812993933" MODIFIED="1476434893789" TEXT="for each use-case define the main success scenario at least">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1476421312948" ID="ID_1464516223" MODIFIED="1476434843947" TEXT="UC1">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1476421316484" ID="ID_1493089593" MODIFIED="1476434844655" TEXT="UC1.1">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1476460307649" ID="ID_1272802866" MODIFIED="1476460311748" TEXT="target version:">
+<node CREATED="1476460312417" ID="ID_913203661" MODIFIED="1476460315490" TEXT="v?.?"/>
+</node>
+<node CREATED="1475075786194" ID="ID_420052759" MODIFIED="1475075944863" TEXT="precondition:">
+<node CREATED="1475075870258" ID="ID_376273734" MODIFIED="1475075872326" TEXT="N.A."/>
+</node>
+<node CREATED="1474996600575" ID="ID_595650714" MODIFIED="1474996603123" TEXT="scenario:">
+<node CREATED="1475042129986" ID="ID_136044579" MODIFIED="1476421368004" TEXT="step_1"/>
+<node CREATED="1476421369010" ID="ID_1506524438" MODIFIED="1476421380166" TEXT="step_2"/>
+<node CREATED="1476421380529" ID="ID_1554984817" MODIFIED="1476421381668" TEXT="..."/>
+</node>
+<node CREATED="1474996972516" ID="ID_1924894124" MODIFIED="1476422341126" TEXT="use messages:">
+<node CREATED="1475069207888" ID="ID_194114782" MODIFIED="1475069209921" TEXT="rest-api">
+<node COLOR="#338800" CREATED="1475042236497" ID="ID_697368189" MODIFIED="1476421349157" TEXT="...Req">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#338800" CREATED="1475042245185" ID="ID_1297096285" MODIFIED="1476421355110" TEXT="...Ok">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#338800" CREATED="1475042270289" ID="ID_241826011" MODIFIED="1475140058917" TEXT="responseErr">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1475069216062" ID="ID_1536123360" MODIFIED="1475069218597" TEXT="internal">
+<node COLOR="#338800" CREATED="1474996975660" ID="ID_968242734" MODIFIED="1476421360905" TEXT="...">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#338800" CREATED="1475069129485" ID="ID_1817787811" MODIFIED="1476421362853" TEXT="...">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1475070202358" ID="ID_853985500" MODIFIED="1475070204534" TEXT="see also:">
+<node COLOR="#990000" CREATED="1474996829902" ID="ID_442333619" MODIFIED="1476421387078" TEXT="UC?">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#990000" CREATED="1474996829902" ID="ID_1354769655" MODIFIED="1476421391749" TEXT="UC?">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1476421319871" ID="ID_125993675" MODIFIED="1476434845166" TEXT="UC1.2">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#990000" CREATED="1476421323123" ID="ID_1404436194" MODIFIED="1476421413697" TEXT="..">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1476421325539" ID="ID_1679013956" MODIFIED="1476421415934" TEXT="...">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1476422347436" FOLDED="true" ID="ID_1176384148" MODIFIED="1476433725162" TEXT="messages:">
+<node COLOR="#669900" CREATED="1476435225980" ID="ID_1200571120" MODIFIED="1476435501444" TEXT="Note:">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#669900" CREATED="1476435232491" ID="ID_1106415289" MODIFIED="1476435501461" TEXT="List here every message affected by the use-cases">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#669900" CREATED="1476435250844" ID="ID_1183771112" MODIFIED="1476435501461" TEXT="Each message description should contain the following information:">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#669900" CREATED="1476435340097" ID="ID_646287663" MODIFIED="1476435501461" TEXT="name (id) of the message used as a reference">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#669900" CREATED="1476435333533" ID="ID_1613724306" MODIFIED="1476435501460" TEXT="short description">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#669900" CREATED="1476435370902" ID="ID_911505777" MODIFIED="1476435501460" TEXT="content pattern, usd by micro services/agents for activation">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#669900" CREATED="1476435413345" ID="ID_600343639" MODIFIED="1476435501460" TEXT="sample message content">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#669900" CREATED="1476435419017" ID="ID_399610598" MODIFIED="1476435501460" TEXT="schema (optional)">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#669900" CREATED="1476435429337" ID="ID_554369320" MODIFIED="1476435501459" TEXT="communication pattern">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#669900" CREATED="1476435437411" ID="ID_1725634626" MODIFIED="1476435501459" TEXT="S / A">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#669900" CREATED="1476435448698" ID="ID_82852287" MODIFIED="1476435501458" TEXT="Synchronous / Asynchronous">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#669900" CREATED="1476435459246" ID="ID_1038399299" MODIFIED="1476435501458" TEXT="C / O">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#669900" CREATED="1476435490625" ID="ID_19667509" MODIFIED="1476435501458" TEXT="Consumed / Observed">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#669900" CREATED="1476435268146" ID="ID_1174035167" MODIFIED="1476435501444" TEXT="Messages can be documented separately under the API repositories with the source code, in this case put here only the name of the message and the reference to the source code of the given message.">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1476433725118" ID="ID_390400475" MODIFIED="1476434929317" TEXT="message_1">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1473869562110" ID="ID_61483660" MODIFIED="1473869569592" TEXT="Reset the whole irrigator system"/>
+<node COLOR="#006699" CREATED="1473866207555" ID="ID_1193053892" MODIFIED="1473869557738" TEXT="role: web, method: POST, uri: /reset">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#006699" CREATED="1476422372925" ID="ID_37190598" MODIFIED="1476422377516" TEXT="sample">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1473869596637" ID="ID_248674522" MODIFIED="1473869599517" TEXT="S/C">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1476434933858" ID="ID_432338826" MODIFIED="1476434934916" TEXT="..."/>
+<node CREATED="1476434929735" ID="ID_773865846" MODIFIED="1476434932665" TEXT="message_n"/>
+</node>
+<node CREATED="1476421202050" FOLDED="true" ID="ID_427740353" MODIFIED="1476421212229" TEXT="platform:">
+<node COLOR="#669900" CREATED="1476435526319" ID="ID_1374506359" MODIFIED="1476435592524" TEXT="Note:">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#669900" CREATED="1476435529903" ID="ID_1949637308" MODIFIED="1476435592538" TEXT="List here the platform and infrastructure related information.">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#669900" CREATED="1476435554040" ID="ID_714364775" MODIFIED="1476435592524" TEXT="If it changes during the development iterations, put also the sub-version numbers as an annotation.">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1476421260356" ID="ID_139354690" MODIFIED="1476421262694" TEXT="PaaS">
+<node CREATED="1476435602482" ID="ID_1340411512" MODIFIED="1476435603846" TEXT="..."/>
+<node CREATED="1476435604464" ID="ID_1909209716" MODIFIED="1476435605187" TEXT="..."/>
+</node>
+<node CREATED="1476421263027" ID="ID_458054706" MODIFIED="1476421264453" TEXT="IaaS">
+<node CREATED="1476435607046" ID="ID_624465098" MODIFIED="1476435608491" TEXT="..."/>
+<node CREATED="1476435609048" ID="ID_781567254" MODIFIED="1476435609742" TEXT="..."/>
+</node>
+</node>
+<node CREATED="1476434949572" FOLDED="true" ID="ID_329688310" MODIFIED="1476434952060" TEXT="Q&amp;A:">
+<node COLOR="#669900" CREATED="1476434954231" ID="ID_343223572" MODIFIED="1476435137112" TEXT="Note:">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#669900" CREATED="1476434985308" ID="ID_522534287" MODIFIED="1476435137126" TEXT="Collect here the questions raised during the sessions of deriving the deliverables and use-cases from high-level business objectives and features.">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#669900" CREATED="1476435037350" ID="ID_1099294461" MODIFIED="1476435137125" TEXT="Talk to the customer and the development team, and answer the questions">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#669900" CREATED="1476435027743" ID="ID_109812159" MODIFIED="1476435137113" TEXT="Place the answers under the questions, and modify/extend the specs. according to the answers">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#669900" CREATED="1476435093050" ID="ID_1164009377" MODIFIED="1476435137112" TEXT="remove the Q&amp;A items, or sign with a check icon if the modification was done.">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1476434957277" ID="ID_578590238" MODIFIED="1476434965514" TEXT="Q1"/>
+<node CREATED="1476434972639" ID="ID_168707760" MODIFIED="1476434978309" TEXT="..."/>
+<node CREATED="1476434965811" ID="ID_1583374860" MODIFIED="1476434981702" TEXT="Qn"/>
+</node>
+<node CREATED="1476421930575" FOLDED="true" ID="ID_1550399095" MODIFIED="1476421933608" TEXT="nextActions:">
+<node COLOR="#669900" CREATED="1476435148911" ID="ID_7809670" MODIFIED="1476435193085" TEXT="Note:">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node COLOR="#669900" CREATED="1476435152802" ID="ID_395110990" MODIFIED="1476435193086" TEXT="Collect here the next immediate tasks/actions to do, in order to finish the specification.">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1476435194956" ID="ID_1845716233" MODIFIED="1476435200008" TEXT="todo_1"/>
+<node CREATED="1476435200375" ID="ID_1850667518" MODIFIED="1476435201360" TEXT="..."/>
+<node CREATED="1476435201818" ID="ID_1064223733" MODIFIED="1476435203890" TEXT="todo_n"/>
+</node>
+</node>
+</node>
+</map>

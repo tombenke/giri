@@ -24,30 +24,5 @@ It demonstrates the usage of [Seneca.js](http://senecajs.org) JavaScript micro-s
 This is an umbrella project.
 
 It contains only the main specification and supporting materials, under the docs folder.
-Visit the [wiki pages](https://github.com/tombenke/giri/wiki) for furher information,
-or read the [giri overview](https://cdn.rawgit.com/tombenke/giri/master/docs/giri.svg) presentation.
-
-Also see the following repositories:
-
-- giri components:
-
-    - https://github.com/tombenke/giri-all-in-one
-    - https://github.com/tombenke/giri-rest-api
-    - https://github.com/tombenke/giri-rest-api-mock
-    - https://github.com/tombenke/giri-web
-    - https://github.com/tombenke/giri-system-control
-
-- tools for rapid development:
-
-    - https://github.com/tombenke/rest-tool
-    - https://github.com/tombenke/scmt
-    - https://github.com/tombenke/kickoff
-
-- [kickoff archetypes](https://github.com/tombenke/kickoff) for projects and components:
-
-    - https://github.com/tombenke/seneca-plugin-archetype
-    - https://github.com/tombenke/seneca-app-archetype
-    - https://github.com/tombenke/hapis-archetype
-    - https://github.com/tombenke/react-ui-archetype
-    - https://github.com/tombenke/react-ui-material-archetype
+Visit the [wiki pages](https://github.com/tombenke/giri/wiki) for furher information.
 

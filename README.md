@@ -6,18 +6,20 @@ giri
 This is the main project of the Garden Irrigator (shortly giri) System.
 
 It is a case-study on how to develop simple, micro-services based, distributed systems, including:
-    - specification writing,
-    - designing,
-    - implementation & testing,
-    - deployment & operation.
+
+- specification writing,
+- designing,
+- implementation & testing,
+- deployment & operation.
 
 This project provides examples of how to use tools created for rapid development using archetypes of:
-    - UI framework,
-    - UI frontend containers and components,
-    - REST service endpoints,
-    - web api proxys,
-    - microservice worker modules,
-    - IoT/WoT functional units.
+
+- UI framework,
+- UI frontend containers and components,
+- REST service endpoints,
+- web api proxys,
+- microservice worker modules,
+- IoT/WoT functional units (hardware and firmware).
 
 It demonstrates the usage of [Seneca.js](http://senecajs.org) JavaScript micro-service framework.
 

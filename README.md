@@ -29,8 +29,6 @@ This project provides examples of how to use tools created for rapid development
 - microservice worker modules,
 - IoT/WoT functional units (hardware and firmware).
 
-You can find detailed documentation and workshop materials about the case study and rapid development tools on the wiki under the [Workshop materials](https://github.com/tombenke/giri/wiki/Workshop Materials) page.
-
-It demonstrates the usage of [Seneca.js](http://senecajs.org) JavaScript micro-service framework.
-
+You can find detailed documentation and workshop materials about the case study and rapid development tools
+on the wiki under the [Workshop materials](https://github.com/tombenke/giri/wiki/Workshop Materials) page.
 

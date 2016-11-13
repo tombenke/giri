@@ -8,8 +8,8 @@
 <node CREATED="1478441672395" ID="ID_1456935178" MODIFIED="1478441774727" TEXT="It has a central control system, which makes the system autonomously work, and makes possible to remotely supervise and control its working via a web-based user interface."/>
 <node CREATED="1478441776395" ID="ID_1285527819" MODIFIED="1478441841824" TEXT="The system implements a generic platform, that can be easily further extend to build a general purpose farm control system (see the main target domains on the image below)."/>
 </node>
-<node CREATED="1478448567460" ID="ID_114947182" MODIFIED="1478448571924" TEXT="Deliverables:">
-<node COLOR="#006633" CREATED="1478446042553" FOLDED="true" ID="ID_1374621685" MODIFIED="1478446067460" TEXT="giri-fu">
+<node CREATED="1478448567460" ID="ID_114947182" MODIFIED="1478583401009" TEXT="Products:">
+<node COLOR="#006633" CREATED="1478446042553" FOLDED="true" ID="ID_1374621685" LINK="https://github.com/tombenke/giri-fu" MODIFIED="1478533511063" TEXT="giri-fu">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="desktop_new"/>
 <node CREATED="1478442482292" ID="ID_1104373896" MODIFIED="1478458006335" TEXT="description:">
@@ -73,7 +73,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#006633" CREATED="1478446586851" FOLDED="true" ID="ID_132006170" MODIFIED="1478447597268" TEXT="giri-fu-hw">
+<node COLOR="#006633" CREATED="1478446586851" FOLDED="true" ID="ID_132006170" LINK="https://github.com/tombenke/giri-fu-hw" MODIFIED="1478533504141" TEXT="giri-fu-hw">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="desktop_new"/>
 <node CREATED="1478447495226" ID="ID_931906668" MODIFIED="1478447496851" TEXT="v1.0">
@@ -688,7 +688,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#006633" CREATED="1478457870231" FOLDED="true" ID="ID_864597486" MODIFIED="1478457944899" TEXT="1wire-relay-hw">
+<node COLOR="#006633" CREATED="1478457870231" FOLDED="true" ID="ID_864597486" LINK="https://github.com/tombenke/1wire-relay-hw" MODIFIED="1478533490764" TEXT="1wire-relay-hw">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="desktop_new"/>
 <node CREATED="1478458344289" ID="ID_398977807" MODIFIED="1478458409812" TEXT="General purpose 1-wire relay hardware module, that is primarily designed for the giri system, to switch 24V AC magnetic valves."/>
@@ -730,7 +730,7 @@
 <node CREATED="1478458468546" ID="ID_1249972349" MODIFIED="1478458533529" TEXT="Seneca plugin, with microservices to control the giri system components."/>
 </node>
 </node>
-<node COLOR="#006633" CREATED="1474965554260" FOLDED="true" ID="ID_1229265116" MODIFIED="1478458684592" TEXT="giri-cloud">
+<node COLOR="#006633" CREATED="1474965554260" FOLDED="true" ID="ID_1229265116" LINK="https://github.com/tombenke/giri-cloud" MODIFIED="1478533518651" TEXT="giri-cloud">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="desktop_new"/>
 <node CREATED="1475143072464" ID="ID_996505163" MODIFIED="1478458710084" TEXT="v1.0">
@@ -913,6 +913,10 @@
 </node>
 </node>
 </node>
+<node COLOR="#006633" CREATED="1474965554260" ID="ID_1425995082" LINK="https://github.com/tombenke/giri-cloud-fu" MODIFIED="1478533533658" TEXT="giri-cloud-fu">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="desktop_new"/>
+</node>
 </node>
 <node CREATED="1474965487828" ID="ID_145684862" MODIFIED="1475068959597" TEXT="Roadmap:">
 <node COLOR="#990000" CREATED="1478442124424" ID="ID_1042822002" MODIFIED="1478446471110" TEXT="M0: giri fu-prototype">
@@ -936,7 +940,7 @@
 <node CREATED="1478448260149" ID="ID_334472473" MODIFIED="1478448271834" TEXT="giri-fu-hw / v1.0"/>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1474965490851" ID="ID_367500417" MODIFIED="1478458653250" TEXT="M1: giri-all-in-one">
+<node COLOR="#990000" CREATED="1474965490851" FOLDED="true" ID="ID_367500417" MODIFIED="1478458653250" TEXT="M1: giri-all-in-one">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1478458656575" ID="ID_1348897136" MODIFIED="1478458658561" TEXT="summary:"/>
 <node CREATED="1478458653233" ID="ID_87913183" MODIFIED="1478458655943" TEXT="setup:">
@@ -964,6 +968,7 @@
 </node>
 <node COLOR="#990000" CREATED="1474965492850" ID="ID_1102097038" MODIFIED="1478458557586" TEXT="M2: giri-cloud">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1478526079395" ID="ID_800975116" MODIFIED="1478526082263" TEXT="summary:"/>
 </node>
 <node COLOR="#990000" CREATED="1474965494129" ID="ID_1606032332" MODIFIED="1478458557586" TEXT="M3: giri-fu-cloud">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -971,7 +976,7 @@
 </node>
 </node>
 <node CREATED="1478448298628" ID="ID_937264460" MODIFIED="1478448307126" TEXT="Sub-systems:"/>
-<node CREATED="1473865763448" ID="ID_1163934496" MODIFIED="1473865767865" TEXT="Messages:">
+<node CREATED="1473865763448" FOLDED="true" ID="ID_1163934496" MODIFIED="1473865767865" TEXT="Messages:">
 <node CREATED="1470113897979" FOLDED="true" ID="ID_1941698234" MODIFIED="1470155329920" TEXT="legend:">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#338800" CREATED="1470113894474" ID="ID_1918003944" MODIFIED="1473870303171" TEXT="message">

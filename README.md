@@ -5,8 +5,14 @@ giri
 
 This is the main project of the Garden Irrigator (shortly giri) System.
 
-This is an umbrella project. It contains only the main specification and supporting materials, under the docs folder.
-Visit the [wiki pages](https://github.com/tombenke/giri/wiki) for furher information on the product.
+The giri system provides all the functionalities that a general purpose dripping or sprinkler irrigator system has to provide in a small farm.
+
+It has a central control system, which makes the system autonomously work, 
+and makes possible to remotely supervise and control its working via a web-based user interface,
+so it is a kind of very simple [DCS](https://en.wikipedia.org/wiki/Distributed_control_system),
+or [SCADA](https://en.wikipedia.org/wiki/SCADA) system.
+
+The system implements a generic platform, that can be easily extend further to build a general purpose farm control system.
 
 The intention with developing of this project is twofold:
 
@@ -29,6 +35,13 @@ This project provides examples of how to use tools created for rapid development
 - microservice worker modules,
 - IoT/WoT functional units (hardware and firmware).
 
-You can find detailed documentation and workshop materials about the case study and rapid development tools
-on the wiki under the [Workshop materials](https://github.com/tombenke/giri/wiki/Workshop Materials) page.
+## How the project is organized?
+
+The main components and repositories of the giri project:
+
+- This [giri](https://github.com/tombenke/giri) repository holds the [documentation](docs/REAMDE.md) on the overall project.
+- The [giri-configs](https://github.com/tombenke/giri-configs) contains the configuration files to setup new systems.
+- The [giri-rest-api](https://github.com/tombenke/giri-rest-api) is the specification of the REST API endpoints of the control system.
+- The [giri-services](https://github.com/tombenke/giri-services) are the backend services of the giri system.
+
 

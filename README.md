@@ -39,7 +39,7 @@ This project provides examples of how to use tools created for rapid development
 
 The main components and repositories of the giri project:
 
-- This [giri](https://github.com/tombenke/giri) repository holds the [documentation](docs/REAMDE.md) on the overall project.
+- This [giri](https://github.com/tombenke/giri) repository holds the [documentation](docs/README.md) on the overall project.
 - The [giri-configs](https://github.com/tombenke/giri-configs) contains the configuration files to setup new systems.
 - The [giri-rest-api](https://github.com/tombenke/giri-rest-api) is the specification of the REST API endpoints of the control system.
 - The [giri-services](https://github.com/tombenke/giri-services) are the backend services of the giri system.

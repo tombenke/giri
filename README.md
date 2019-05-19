@@ -44,4 +44,29 @@ The main components and repositories of the giri project:
 - The [giri-rest-api](https://github.com/tombenke/giri-rest-api) is the specification of the REST API endpoints of the control system.
 - The [giri-services](https://github.com/tombenke/giri-services) are the backend services of the giri system.
 
+## Deploy the whole system via docker-compose
 
+The [devops](devops/) folder contains subfolders with Docker-files to build docker images of the individual system components, an a [docker-compose.yml](devops/docker-compose.yml) file, that describes a minimalistic, but complete system which can be started and used for testing.
+
+Start the system:
+
+```bash
+    cd devops
+    docker-compose up
+```
+
+Test the `giri-rest-gw` with curl:
+
+```bash
+    curl http://localhost:8081/systems
+    []
+
+    curl -X POST http://localhost:8081/systems -d '{"name": "backyard garden"}'
+    {"id":"87cc22c6-4e2c-4311-9979-b40af9e0920e","name": "backyard garden"}
+
+    curl -X DELETE http://localhost:8081/systems
+
+    curl http://localhost:8081/systems
+    []
+
+```

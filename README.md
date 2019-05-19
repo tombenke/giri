@@ -61,8 +61,13 @@ Test the `giri-rest-gw` with curl:
     curl http://localhost:8081/systems
     []
 
-    curl -X POST http://localhost:8081/systems -d '{"name": "backyard garden"}'
-    {"id":"87cc22c6-4e2c-4311-9979-b40af9e0920e","name": "backyard garden"}
+    curl -X POST http://localhost:8081/systems \
+        -H "Content-Type: application/json" \
+        -d '{"name": "backyard garden"}'
+    {"id":"87cc22c6-4e2c-4311-9979-b40af9e0920e","name":"backyard garden"}
+
+    curl http://localhost:8081/systems
+    [{"id":"87cc22c6-4e2c-4311-9979-b40af9e0920e","name":"backyard garden"}]
 
     curl -X DELETE http://localhost:8081/systems
 

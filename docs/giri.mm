@@ -216,11 +216,11 @@
 <node TEXT="The REST API specification of the giri-web server" ID="ID_1670756523" CREATED="1478458321012" MODIFIED="1478458339014"/>
 </node>
 </node>
-<node TEXT="giri-config" ID="ID_893837862" CREATED="1558158531699" MODIFIED="1558158533848"/>
+<node TEXT="giri-config" STYLE_REF="home" ID="ID_893837862" CREATED="1558158531699" MODIFIED="1558162575675"/>
 </node>
 <node TEXT="Removed" STYLE_REF="home" FOLDED="true" ID="ID_279006953" CREATED="1558160402047" MODIFIED="1558160415206">
 <icon BUILTIN="button_ok"/>
-<node TEXT="giri-cloud" STYLE_REF="home" ID="ID_1229265116" CREATED="1474965554260" MODIFIED="1557675504696" LINK="https://github.com/tombenke/giri-cloud">
+<node TEXT="giri-cloud" STYLE_REF="home" FOLDED="true" ID="ID_1229265116" CREATED="1474965554260" MODIFIED="1557675504696" LINK="https://github.com/tombenke/giri-cloud">
 <icon BUILTIN="desktop_new"/>
 <font NAME="SansSerif"/>
 <node TEXT="v1.0" ID="ID_996505163" CREATED="1475143072464" MODIFIED="1478458710084">
@@ -407,11 +407,7 @@
 <icon BUILTIN="desktop_new"/>
 <font NAME="SansSerif"/>
 </node>
-</node>
-<node TEXT="To remove" STYLE_REF="lsyh" ID="ID_784072177" CREATED="1558158450787" MODIFIED="1558158490741">
-<icon BUILTIN="button_cancel"/>
-<node TEXT="giri.wiki" STYLE_REF="home" ID="ID_1999882087" CREATED="1558158550970" MODIFIED="1558158560104"/>
-<node TEXT="1wire-relay-hw" STYLE_REF="home" ID="ID_864597486" CREATED="1478457870231" MODIFIED="1557675503065" LINK="https://github.com/tombenke/1wire-relay-hw">
+<node TEXT="1wire-relay-hw" STYLE_REF="home" FOLDED="true" ID="ID_864597486" CREATED="1478457870231" MODIFIED="1557675503065" LINK="https://github.com/tombenke/1wire-relay-hw">
 <icon BUILTIN="desktop_new"/>
 <font NAME="SansSerif"/>
 <node TEXT="General purpose 1-wire relay hardware module, that is primarily designed for the giri system, to switch 24V AC magnetic valves." ID="ID_398977807" CREATED="1478458344289" MODIFIED="1478458409812"/>
@@ -427,14 +423,15 @@
 <node TEXT="mounting:" ID="ID_1492013879" CREATED="1478458434433" MODIFIED="1478458436520"/>
 </node>
 </node>
+<node TEXT="giri.wiki" STYLE_REF="home" ID="ID_1999882087" CREATED="1558158550970" MODIFIED="1558158560104"/>
+<node TEXT="Archived" STYLE_REF="home" ID="ID_120405472" CREATED="1558161367638" MODIFIED="1558161372364">
+<node TEXT="giri-sector-control" ID="ID_1849383049" CREATED="1558160960965" MODIFIED="1558160964803"/>
+<node TEXT="giri-rest-api-proxy" ID="ID_1174322775" CREATED="1558161014581" MODIFIED="1558161020887"/>
 <node TEXT="giri-rest-api-mock" STYLE_REF="home" ID="ID_1532944871" CREATED="1478446399041" MODIFIED="1557675503703" LINK="https://github.com/tombenke/giri-rest-api-mock">
 <icon BUILTIN="desktop_new"/>
 <font NAME="SansSerif"/>
 <node TEXT="description:" ID="ID_850955546" CREATED="1478458312530" MODIFIED="1478458316148"/>
 </node>
-</node>
-<node TEXT="To migrate/rename/remove" STYLE_REF="lsyh" ID="ID_1027977723" CREATED="1558158473348" MODIFIED="1558158490348">
-<icon BUILTIN="help"/>
 <node TEXT="giri-web" STYLE_REF="home" ID="ID_434597164" CREATED="1478446399043" MODIFIED="1557675504027" LINK="https://github.com/tombenke/giri-web">
 <icon BUILTIN="desktop_new"/>
 <font NAME="SansSerif"/>
@@ -449,6 +446,8 @@
 <node TEXT="Seneca plugin, with microservices to control the giri system components." ID="ID_1249972349" CREATED="1478458468546" MODIFIED="1478458533529"/>
 </node>
 </node>
+<node TEXT="giri-cluster-control" ID="ID_1762933723" CREATED="1558160956581" MODIFIED="1558160960357"/>
+<node TEXT="giri-sector-sm" ID="ID_368100515" CREATED="1558160986794" MODIFIED="1558160989750"/>
 <node TEXT="giri-all-in-one" STYLE_REF="home" FOLDED="true" ID="ID_512402819" CREATED="1478446399032" MODIFIED="1557675499658" LINK="https://github.com/tombenke/giri-all-in-one">
 <icon BUILTIN="desktop_new"/>
 <font NAME="SansSerif"/>
@@ -876,6 +875,7 @@
 <font SIZE="12"/>
 <node TEXT="port is not reacheable (no power, not connected, cable error, etc.)" STYLE_REF="home" ID="ID_1952518819" CREATED="1475154207620" MODIFIED="1557675595410">
 <font NAME="SansSerif"/>
+</node>
 </node>
 </node>
 </node>

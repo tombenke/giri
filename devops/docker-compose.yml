@@ -1,0 +1,43 @@
+version: "2.0"
+services:
+  giri-api-gw:
+    image: giri-api-gw:latest
+    restart: always
+    build: ./giri-api-gw/
+    #build:
+    #  args:
+    #    - environment=staging
+    links:
+      - nats
+      - giri-services
+    environment:
+      - WEBSERVER_PORT=8081
+      - WEBSERVER_STATIC_CONTENT_BASEPATH=giri-rest-api/rest/api/
+      - WEBSERVER_USE_COMPRESSION=true
+      - WEBSERVER_USE_RESPONSE_TIME=false
+      - EASER_LOG_LEVEL=info
+      - EASER_LOG_FORMAT=plainText
+      - PDMS_NATS_URI=nats://nats:4222
+      - PDMS_TIMEOUT=6000
+
+    ports:
+      - "8081:8081"
+
+  giri-services:
+    image: giri-services:latest
+    build: ./giri-services/
+    restart: always
+    links:
+      - nats
+    environment:
+      - PDMS_NATS_URI=nats://nats:4222
+      - LOG_LEVEL=info
+      - LOG_FORMAT=plainText
+
+  nats:
+    image: nats:latest
+    restart: always
+    ports:
+      - "4222:4222"
+      - "6222:6222"
+      - "8222:8222"
